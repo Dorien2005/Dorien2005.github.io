@@ -1,0 +1,64 @@
+body {
+    background-image: url(kitten-puppy-achtergrond.jpg);/* de achtergrond afbeelding*/
+    background-size: 100%; /* de manier hoe hij de width van de afbeelding vult*/
+}
+
+h1 {
+    text-align: center;/*om de tekst in het midden te zetten*/
+    font-family: "Courier New";
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bolder;
+    border: 4px solid orange;
+    color: #FFDDFF; /* de kleur tekst*/ 
+    background-color: maroon;
+    padding: 3px;
+}
+
+h2 {
+    text-align:center;
+    font-family: "Courier New";
+}
+
+p {
+    text-align: center;
+    font-family: "Courier New";
+    font-weight: bolder;
+    line-height: 135%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    border: 4px black double;
+    border-radius: 20px 0px 20px 0px;
+    text-align: justify;
+    margin: 15px;
+    padding: 5px;
+    border-width: 4px;
+    color: firebrick;
+    
+    background-color: rgba(255, 255, 255, .5);
+    
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Courier New";/* dit is he letter type*/
+    font-weight: bolder;/* dit is voor bold*/
+    line-height: 135%; 
+    letter-spacing: 1px;/* dit is de afstand tussen de letters*/
+    word-spacing: 3px; /* dit is de afstand tussen de woorden*/
+    border: 4px black double; /* dit is de dikte, de kleur en de dubbelheid van de border*/
+    border-radius: 20px 0px 20px 0px; /* dit zorgt voor de boogjes in de border*/
+    text-align: justify;
+    margin: 15px; /* de ruimte tussen de border en de rest*/
+    padding: 5px;/* de ruimte tussen de teskt en de border*/
+    border-width: 4px; /* de dikte van de border*/
+    color: firebrick; /* de kleur van de tekst*/
+    
+    background-color: rgba(255, 255, 255, .5);/* dit zorgt voor de transparantheid van de alinea*/
+}
+
+.hetkopje {
+    text-align: center;/* dit zorgt ervoor dat de tekst in he midden staat*/
+    color: springgreen;/* dit zorgt voor de kleur*/
+    
+}
