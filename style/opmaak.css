@@ -46,7 +46,7 @@ p {
 }
 
 table {
-    border: 4px solid black;
+    border: 4px dotted black;
 }
 
 td {
