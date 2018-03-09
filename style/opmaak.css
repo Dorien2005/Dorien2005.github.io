@@ -46,11 +46,13 @@ p {
 }
 
 table {
-    border: 4px dotted black;
+    border: 2px dotted black;
+    text-decoration: none;
+    
 }
 
 td {
-    border: 4px solid black;
+    border: 0px solid black;
 }
 
 ul {
