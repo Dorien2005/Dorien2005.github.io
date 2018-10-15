@@ -25,16 +25,16 @@
   width: 960px;
 }
 
-section {
-  color: white;
-}
 
 section article {
   color: white;
 }
 
 body{
-  background-color: #bfbfbf;
   background-image: url(achtergrondafbeelding.jpg);
   background-size: cover;
+}
+
+.h3{
+  color: #ffff66;
 }
