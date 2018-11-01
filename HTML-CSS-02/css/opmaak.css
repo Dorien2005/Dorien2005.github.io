@@ -20,8 +20,10 @@ img{
   left: 27%;
 }
 
-.link{
+nav{
     color: #89BBFE;
+    position: sticky;
+    top: 0;
 }
 
 .wrapper {
@@ -73,8 +75,28 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #ffffff;
+    color: black;
 }
 
 .active {
     background-color: #615D6C;
+}
+
+.href:link {
+  color: yellow;
+  background-color: black;
+}
+
+.href:visited {
+  color: white;
+  font-size: 26px;
+}
+
+.href:hover {
+  background-color: black;
+  color: blue;
+}
+
+.par {
+  background-color: rgb(60, 60, 60, .5);
 }
