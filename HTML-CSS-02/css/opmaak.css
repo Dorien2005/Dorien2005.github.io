@@ -12,7 +12,7 @@ body{
 
 #header{
   color: #ACEDFF;
-  font-style: Comic Sans MS;
+  font-family: "Jazz LET", fantasy;
   font-size: 41px;
   text-align: center;
   background-color: #6F8AB7;
@@ -27,6 +27,7 @@ nav{
     top: 0;
     /* menu kleur en blijft plakken als ik scroll*/
 }
+
 .wrapper {
   margin: 0 auto 0 auto;
   width: 960px;
