@@ -75,7 +75,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #8ebeff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -83,7 +83,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color: white;
-    color: #798CB6;
+    color: #599fff;
 }
 
 .href:link {
