@@ -12,7 +12,8 @@ body{
 
 #header{
   color: #ACEDFF;
-  font-family: "Jazz LET", fantasy;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   font-size: 41px;
   text-align: center;
   background-color: #6F8AB7;
@@ -25,6 +26,7 @@ nav{
     color: #89BBFE;
     position: sticky;
     top: 0;
+    font-family: 'Oswald', sans-serif;
     /* menu kleur en blijft plakken als ik scroll*/
 }
 
@@ -43,6 +45,7 @@ img{
 section article {
   color: white;
   background-color: rgb(60, 60, 60, .5);
+  font-family: 'Oswald', sans-serif;
   /* doorzichtige achtergrond en tekst kleur*/
 }
 
