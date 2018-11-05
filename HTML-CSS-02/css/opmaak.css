@@ -60,7 +60,7 @@ section article {
   /* onderaan de pagina heb je die footer dit zorgt ervoor dat hij scrollproof is*/
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -69,12 +69,12 @@ ul {
     /* de menu lijst shit*/
 }
 
-li {
+nav li {
     float: left;
     /* zorgt er voor dat het menu niet verticaal is*/
 }
 
-li a {
+nav li a {
     display: block;
     color: #8ebeff;
     text-align: center;
@@ -82,7 +82,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: white;
     color: #599fff;
 }
