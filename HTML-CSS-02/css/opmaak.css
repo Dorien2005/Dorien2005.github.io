@@ -106,8 +106,8 @@ nav li a:hover:not(.active) {
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
-    color: white;
+    color: #80b3ff;
+    font-family: 'Oswald', sans-serif;    
 }
 
 .sidenav {
@@ -147,8 +147,4 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-span {
-  text-align: center;
 }

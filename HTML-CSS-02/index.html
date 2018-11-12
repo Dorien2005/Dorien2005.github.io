@@ -8,7 +8,6 @@
   <body>
     <div class="wrapper">
     <header id="header">Dorien's portfolio</header>
-    <span style="font-size:30px;cursor:pointer"onclick="openNav()">&#9776; open</span>
     <nav id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
@@ -18,7 +17,7 @@
       <a href="projecten.html">Projecten</a>
       <a href="contact.html">Contact</a>
     </nav>
-    <br>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
     <section>
       <article class="par">
         Deze website gaat over mij. Ik hoop dat je dit leuk vind. Dit is voor HTML-CSS-02.
@@ -31,5 +30,14 @@
     </section>
     <footer class="footer">Deze website is gemaakt door mij</footer>
   </div>
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
   </body>
 </html>
