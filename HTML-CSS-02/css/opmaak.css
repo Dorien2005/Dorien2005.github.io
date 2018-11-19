@@ -11,23 +11,14 @@ body{
 }
 
 #header{
-  color: #ACEDFF;
+  color: #3399ff;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   font-size: 41px;
   text-align: center;
-  /* background-color: #6F8AB7; */
   width: 100%;
   height: 75px;
   /* header schit*/
-}
-
-nav{
-    color: #89BBFE;
-    position: sticky;
-    top: 0;
-    font-family: 'Oswald', sans-serif;
-    /* menu kleur en blijft plakken als ik scroll*/
 }
 
 .wrapper {
@@ -46,12 +37,18 @@ section article {
   color: white;
   background-color: rgb(60, 60, 60, .5);
   font-family: 'Oswald', sans-serif;
+  margin: 4px;
+  line-height: 1.6;
   /* doorzichtige achtergrond en tekst kleur*/
 }
 
 .h3{
-  color: #ACEDFF;
+  color: #00ccff;
   /* kleur van de h3tjes*/
+}
+
+.h4{
+  color: #ACEDFF;
 }
 
 .footer{
@@ -62,33 +59,6 @@ section article {
   width: 76%;
   font-family: 'Oswald', sans-serif;
   /* onderaan de pagina heb je die footer dit zorgt ervoor dat hij scrollproof is*/
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #615D6C;
-    /* de menu lijst shit*/
-}
-
-nav li {
-    float: left;
-    /* zorgt er voor dat het menu niet verticaal is*/
-}
-
-nav li a {
-    display: block;
-    color: #8ebeff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav li a:hover:not(.active) {
-    background-color: white;
-    color: #599fff;
 }
 
 .href:link {
@@ -107,7 +77,7 @@ nav li a:hover:not(.active) {
 
 body {
     color: #80b3ff;
-    font-family: 'Oswald', sans-serif;    
+    font-family: 'Oswald', sans-serif;
 }
 
 .sidenav {
