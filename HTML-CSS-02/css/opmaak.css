@@ -29,6 +29,10 @@ body{
 
 img{
   position: relative;
+  left: 27%;
+}
+#schoolfoto{
+  position: relative;
   left: 10%;
   /* imgage en positie*/
 }
@@ -38,12 +42,14 @@ section article {
   background-color: rgb(60, 60, 60, .5);
   font-family: 'Oswald', sans-serif;
   margin: 4px;
+  padding: 10px;
   line-height: 1.6;
   /* doorzichtige achtergrond en tekst kleur*/
 }
 
 .h3{
   color: #00ccff;
+  padding: 5px;
   /* kleur van de h3tjes*/
 }
 
